@@ -12,7 +12,7 @@ function PropSpawn()
             local ped = PlayerPedId()
             local created_object = CreateObjectNoOffset(v.model, v.coords.x, v.coords.y, v.coords.z - 1, 1, 0, 1)
             PlaceObjectOnGroundProperly(created_object)
-            SetEntityHeading(created_object, v.coords.h)
+            SetEntityHeading(created_object, v.coords.w)
             FreezeEntityPosition(created_object, true)
             SetModelAsNoLongerNeeded(v.model)
         end
