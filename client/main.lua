@@ -19,5 +19,4 @@ CreateThread(function()
             end
         end
     end
-    PropSpawn()
 end)
